@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tatien777/CV-TIEN/issues"
   },
-  "homepage": "https://github.com/tatien777/CV-TIEN#readme"
+  "homepage": "https://github.com/tatien777/CV-TIEN#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
 }
