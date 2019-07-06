@@ -228,11 +228,31 @@ a.download span {
   -ms-border-radius: 6px;
   -moz-border-radius: 6px;
   margin: 0 auto;
+
   position: relative;
 }
 span.devide-line {
   width: 3px;
   height: 450px;
+  position: absolute;
+  top: 30px;
+  display: initial;
+  background: #d4d4d4;
+}
+span.devide-line1{
+  height: 550px;
+  width: 3px;
+  /* height: 450px; */
+  position: absolute;
+  top: 30px;
+  display: initial;
+  background: #d4d4d4;
+}
+
+span.devide-line2{
+  height: 400px;
+  width: 3px;
+  /* height: 450px; */
   position: absolute;
   top: 30px;
   display: initial;
@@ -246,6 +266,8 @@ label.bag {
   position: absolute;
   top: 5em;
   left: 39.7em;
+  top: 120%;
+  left: 48.5%;
 }
 label.book {
   width: 32px;
@@ -255,13 +277,15 @@ label.book {
   position: absolute;
   top: 5em;
   left: 39.7em;
+  top: 120%;
+  left: 48.5%;
 }
 .exp-devide-grid-right {
   width: 40%;
   text-align: left;
   position: absolute;
   top: 7em;
-  left: 43.255em;
+  left: 60.255em;
 }
 .exp-devide-grid-right:before {
   content: url(../img/sec-d.png) no-repeat 0px 0px;
@@ -300,6 +324,7 @@ label.book {
   position: absolute;
   top: 16em;
   left: 5.8em;
+  left: 8%;
 }
 .exp-devide-grid-left:before {
   content: url(../img/cover-2.png) no-repeat 0px 0px;
@@ -322,6 +347,7 @@ label.book {
 }
 .education {
   margin-top: 35%;
+  margin-top: 45%;
 }
 /*--- Experience Ends Here ----*/
 /*--- Skills Starts Here ----*/
@@ -923,6 +949,8 @@ p.copyright a:hover {
   }
   label.book {
     left: 32.7em;
+    top: 120%;
+    left: 48.5%;
   }
 }
 @media (max-width: 800px) {
@@ -952,6 +980,8 @@ p.copyright a:hover {
   }
   label.bag {
     left: 24.7em;
+    top: 120%;
+    left: 48.5%;
   }
   .exp-devide-grid-right {
     left: 28.3em;
@@ -968,6 +998,8 @@ p.copyright a:hover {
   }
   label.book {
     left: 24.7em;
+    top: 120%;
+    left: 48.5%;
   }
   .skill-column {
     margin-bottom: 2em;
@@ -1040,6 +1072,8 @@ p.copyright a:hover {
   label.book {
     left: 7.25%;
     top: 4em;
+    top: 120%;
+    left: 48.5%;
   }
   .exp-devide-grid-right {
     left: 15.8%;
