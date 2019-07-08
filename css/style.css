@@ -460,7 +460,7 @@ ul.social li i.gp {
     width: 117px;
     font-weight: bold;
     letter-spacing: 1px;
-    font-size: .9em;
+    /* font-size: .9em; */
     color: #ffffff;
     background: #6adcfa;
     border-top-left-radius: 3px;
@@ -468,7 +468,8 @@ ul.social li i.gp {
     background: rgba(0, 0, 0, 0.1);
     padding: 0 20px;
     height: 100%;
-    line-height: 22px
+    line-height: 22px;
+    font-size: 1.2em;
 }
 .skillbar-bar {
 	height: 100%;
